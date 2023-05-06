@@ -18,3 +18,10 @@ https://platform.openai.com/account/api-keys
 各データベースカラムをEmbeddingし、クエリとの類似性を評価した場合とで、回答結果を比較しました。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/STEP1_select_table_columns_with_embedding.ipynb)
+
+
+## [STEP2] ChatGPTによるSQL生成
+
+STEP1で選定したカラムを出力するSQLをChatGPTを用いて自動生成しました。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/STEP2_generate_sql_with_openai_api.ipynb)
