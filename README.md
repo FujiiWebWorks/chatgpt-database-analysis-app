@@ -27,6 +27,22 @@ STEP1で選定したカラムを出力するSQLをChatGPTを用いて自動生�
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/STEP2_generate_sql_with_openai_api.ipynb)
 
 
+
+## [STEP3] ChatGPTによる解析方法の提案
+
+STEP1, 2で適切なデータセットが得られたと仮定して、3つの解析対象について、現在のデータベースから出力が得られるか検証を行いました。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/STEP3_analyze_exported_data.ipynb)
+
+
+
+## [STEP4] ChatGPTによる洞察の生成
+
+STEP3で得た結果と、データ構造などのメタ情報から、OpenAI APIを用いて洞察を得ました。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/STEP4_request_chatgpt_for_insight.ipynb)
+
+
 ## 統計データ
 
 ### specimens（マウス標本）
