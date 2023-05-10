@@ -44,6 +44,15 @@ STEP3で得た結果と、データ構造などのメタ情報から、OpenAI AP
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/STEP3_4_for_ANALYSIS_2.ipynb)
 
 
+## [追加検証] 事前情報・周辺情報のサイズを大きく汎用的な内容に設定した場合について
+
+上記の[STEP3,4]では、クエリの内容に応じて、事前情報（実験データの解析結果）や周辺情報（マウスの脳構造ツリーダイアグラム）を特定の一部分に絞り込むというアルゴリズムを組み込んでいました。
+
+本検証では、クエリの内容に依らず、また、APIの制限値(8kトークン)ギリギリまで事前情報・周辺情報を詰め込んだ場合、汎用的なクエリにも回答可能なのではないかという仮説について確かめました。
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FujiiWebWorks/chatgpt-database-analysis-app/blob/main/weighted_adjacency_matrix_analysis.ipynb)
+
+
 ## 統計データ
 
 ### specimens（マウス標本）
